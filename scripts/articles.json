@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": 1,
-      "thumbnail": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-i2HB3pjBIxbq64xGvY1LEaeE/user-vfW3XnzFFs3BzFZweZZ6RIi9/img-6MBKusJJN4Iitl2FyArSNJbC.png?st=2024-10-23T23%3A55%3A13Z&se=2024-10-24T01%3A55%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-10-23T19%3A11%3A04Z&ske=2024-10-24T19%3A11%3A04Z&sks=b&skv=2024-08-04&sig=eMjjhs7hCx0WqDYa5MnaWABwN6deUnVMWLrJj1Q1qPY%3D",
+      "thumbnail": "https://picsum.photos/300/300?random=2",
       "title": "Article Title 1",
       "description": "This is a short description of article 1.",
       "link": "./post1/",
