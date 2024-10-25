@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA & Nocode</title>
+    <link rel="stylesheet" href="./scripts/global.css">
+    <link rel="stylesheet" href="./scripts/home.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-menu">
+            <div class="menu-right">
+                <a href="./" class="logo-link">IA & NoCode</a>
+            </div>
+            <div class="menu-left">
+                <button class="about-link" onclick="openAbout()">À propos</button>
+            </div>
+        </div>
+        <div class="header-about">
+            <div class="about-avatar">
+                <img class="avatar-img" src="./media/images/blog-avatar.png">
+                <p class="avatar-name">André Roussille</p>
+            </div>
+           <div class="about-cta">
+                <h1 class="cta-title">Blog sur l'IA et le NoCode</h1>
+                <p class="cta-desc">Découvrez comment l'<strong>intelligence artificielle</strong> (IA) et les outils <strong>Nocode</strong> (sans code) peuvent optimiser, automatiser et propulser vos projets à une vitesse impressionnante."</p>
+           </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="grid-container" id="articles-container">
+            <!-- Aquí se cargarán los artículos dinámicamente -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Aquí puede ir el pie de página -->
+    </footer>
+
+    <script>
+        // Función para cargar JSON externo
+        function loadArticles() {
+            fetch('./scripts/articles.json') // Aquí se carga el archivo JSON externo
+                .then(response => response.json()) // Convertir la respuesta a JSON
+                .then(data => {
+                    const container = document.getElementById('articles-container');
+                    data.articles.forEach(article => {
+                        const articleElement = document.createElement('article');
+                        articleElement.classList.add('grid-item');
+    
+                        // Crear el enlace que envolverá todo el contenido del card
+                        const articleLink = document.createElement('a');
+                        articleLink.href = article.link; // Enlace recuperado del JSON
+                        articleLink.classList.add('full-link'); // Clase opcional para estilizar el enlace
+                        articleLink.setAttribute('target', '_self'); // Opcional: abre en una nueva pestaña
+    
+                        // Contenido del artículo
+                        articleLink.innerHTML = `
+                            <div class="item-image">
+                                <img src="${article.thumbnail}" alt="${article.title}">
+                            </div>
+                            <div class="item-text">
+                                <h2>${article.title}</h2>
+                                <p>${article.description}</p>
+                                <p>${article.date}</p>
+                            </div>
+                        `;
+    
+                        // Añadir el enlace al artículo
+                        articleElement.appendChild(articleLink);
+                        container.appendChild(articleElement);
+                    });
+                })
+                .catch(error => console.error('Error loading articles:', error));
+        }
+    
+        // Cargar los artículos al cargar la página
+        window.onload = loadArticles;
+    </script>
+    
+</body>
+</html>
