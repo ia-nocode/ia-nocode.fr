@@ -1,0 +1,33 @@
+<style id="page-laptop.css" type="text/css" data-type="css" data-size="laptop" data-content="page"></style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><article>  
+    <div data-type="post-meta">
+        <h1 data-type="post-title">Les Jeux Olympiques</h1>
+        <p data-type="post-date">Publié le : 24 octobre 2023</p>
+    </div>   
+    <div data-type="post-cover"><img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-i2HB3pjBIxbq64xGvY1LEaeE/user-vfW3XnzFFs3BzFZweZZ6RIi9/img-TILRIQ9tYATErzC79qZ4YN7w.png?st=2024-10-25T04%3A37%3A41Z&amp;se=2024-10-25T06%3A37%3A41Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-10-24T19%3A13%3A05Z&amp;ske=2024-10-25T19%3A13%3A05Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=lrMpMW7bD3IRMkMJD71/Er7okRxr2scZNDegHTv1BXA%3D" data-type="image-fg" loading="lazy"></div>
+    <div data-type="post-body">
+        <div data-type="content">
+            <h2>Sommaire</h2>
+            <ol>
+                <li>Histoire des Jeux Olympiques</li>
+                <li>Organisation Moderne</li>
+                <li>Impact Global</li>
+            </ol>
+        </div>
+        <div data-type="content">
+            <h3>Histoire des Jeux Olympiques</h3>
+            <p>Les Jeux Olympiques ont une histoire riche et ancienne, remontant à la Grèce antique. Ces jeux étaient à l'origine une série de compétitions entre les cités-États grecques, dédiées aux dieux de l'Olympe. Modernisés en 1896 par le baron Pierre de Coubertin, les Jeux Olympiques actuels sont devenus un événement international prestigieux.</p>
+        </div>
+        <div data-type="content">
+            <h3>Organisation Moderne</h3>
+            <p>L'organisation moderne des Jeux Olympiques implique le Comité International Olympique (CIO), un organisme qui supervise la planification et l'organisation des Jeux. Les villes candidates soumettent des propositions pour accueillir les événements et investissent massivement pour construire des infrastructures adaptées.</p>
+        </div>
+        <div data-type="content">
+            <h3>Impact Global</h3>
+            <p>Les Jeux Olympiques ont un impact significatif sur le plan mondial, contribuant à l'économie, à la visibilité internationale des pays hôtes et à la promotion de la paix et de l'unité mondiale. De plus, ils sont une plateforme pour les athlètes du monde entier pour démontrer leurs talents et inspirer les générations futures.</p>
+        </div>
+        <div data-type="content">
+            <h3>Résumé</h3>
+            <p>Les Jeux Olympiques sont plus qu'un simple événement sportif; ils sont le reflet de l'histoire, un spectacle de diversité culturelle et une manifestation de l'engagement mondial vers l'excellence et la paix entre les nations.</p>
+        </div> 
+    </div>
+</article> </grid-body><script id="page-global.js" type="text/javascript" data-type="js"></script>
